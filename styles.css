@@ -88,3 +88,12 @@ section {
   footer a {
     color: #99ccff;
   }
+
+  /* 
+  iPhones
+   */
+   @media (max-width: 600px) {
+    .container {
+      padding: 0 15px;
+    }
+  }
