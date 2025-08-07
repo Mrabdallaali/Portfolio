@@ -7,17 +7,30 @@ body {
     background-color: #f4f4f4;;
 }
 
+
+
+
 section {
     padding: 60px 20px;
     max-width: 800px;
     margin: auto;
   }
-  
+
   .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     background-color: #f0f0f0;
     padding: 100px 20px;
   }
+  
+  /* .hero {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 100px 20px;
+  } */
   
   .profile {
     width: 250px;
@@ -51,7 +64,9 @@ section {
   .projects li {
     margin-bottom: 10px;
   }
-  
+  .projects h4 {
+    color: #E15554
+  }
   a {
     color: #0077cc;
     text-decoration: none;
@@ -74,13 +89,27 @@ section {
  }
 
  .fa-linkedin {
-
+  size: 50px;
+ }
+ 
  .socials {
+  text-align: center;
+  margin-bottom: 0
+ }
+
+ .icon-row {
     display: flex;
     justify-content: center;
-    gap: 20px;
-    margin-top: 20px;
+    gap: 10px;
+    margin-top: 10px;
   }
+  
+ /* .socials {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 20px;
+  } */
 
   /* .socials .icon {
     margin-top: 20px;
@@ -121,6 +150,7 @@ section {
     color: #99ccff;
   }
 
+
   /* 
   iPhones
    */
@@ -129,3 +159,4 @@ section {
       padding: 0 15px;
     }
   }
+
