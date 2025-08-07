@@ -5,7 +5,7 @@ This site showcases who I am, the projects I've worked on, and how to connect wi
 
 ## 🚀 Live Demo
 
-👉 [View Portfolio]((http://127.0.0.1:5500/index.html))
+👉 [View Portfolio](http://127.0.0.1:5500/index.html)
 
 ## ✨ Features
 
